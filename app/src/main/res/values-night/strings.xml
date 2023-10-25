@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_welcome">Selamat Datang di StoryApps!!</string>
+    <string name="desc_welcome">Mau berbagi cerita dan review mengenai tempat liburan di Indonesia? StoryHoliday aja!</string>
+    <string name="btn_signup">Daftar</string>
+    <string name="title_signup">Lengkapi data dirimu di bawah ini ya</string>
+    <string name="tv_email">Email</string>
+    <string name="title_login">Masukkan dulu datamu</string>
+    <string name="dec_login">Masukkan dulu datamu ya</string>
+    <string name="logout">Logout</string>
+    <string name="message_main_page">Selamat berbagi pengalaman!</string>
+    <string name="layout_name">Name</string>
+    <string name="tv_item_desc">Deskripsi gambar:</string>
+    <string name="camera">Camera</string>
+    <string name="upload">Upload</string>
+    <string name="warning_empty">Silahkan masukkan berkas gambar terlebih dahulu.</string>
+</resources>
