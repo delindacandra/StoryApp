@@ -15,7 +15,6 @@ import com.dicoding.storyapp.ui.detail.DetailActivity
 import com.dicoding.storyapp.ui.detail.DetailActivity.Companion.data
 import androidx.core.util.Pair
 
-
 class ListStoryAdapter : ListAdapter<ListStoryItem, ListStoryAdapter.MyViewHolder>(DIFF_CALLBACK) {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {

@@ -16,7 +16,6 @@ import com.dicoding.storyapp.setting.ViewModelFactory
 import com.dicoding.storyapp.data.ResultState
 import com.dicoding.storyapp.databinding.ActivitySignupBinding
 import com.dicoding.storyapp.ui.login.LoginActivity
-
 class SignupActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySignupBinding
 

@@ -10,7 +10,6 @@ import com.dicoding.storyapp.ui.main.MainViewModel
 import com.dicoding.storyapp.ui.signup.SignupViewModel
 import com.dicoding.storyapp.ui.uploadStory.UploadViewModel
 import com.dicoding.storyapp.ui.welcome.WelcomeViewModel
-
 class ViewModelFactory(private val repository: Repository) : ViewModelProvider.NewInstanceFactory() {
 
     @Suppress("UNCHECKED_CAST")

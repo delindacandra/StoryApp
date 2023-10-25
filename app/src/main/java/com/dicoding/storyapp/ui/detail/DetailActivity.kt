@@ -16,9 +16,7 @@ class DetailActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityDetailBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
         setupAction()
-
     }
 
     private fun setupAction() {
@@ -38,7 +36,6 @@ class DetailActivity : AppCompatActivity() {
     }
 
     private fun showLoading(state: Boolean) { binding.progressIndicator.visibility = if (state) View.VISIBLE else View.GONE }
-
 
     companion object {
         const val data = "id"

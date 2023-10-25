@@ -3,7 +3,6 @@ package com.dicoding.storyapp.data.api
 import com.google.gson.annotations.SerializedName
 
 data class LoginResponse(
-
 	@field:SerializedName("loginResult")
 	val loginResult: LoginResult? = null,
 
@@ -15,7 +14,6 @@ data class LoginResponse(
 )
 
 data class LoginResult(
-
 	@field:SerializedName("email")
 	val email: String? = null,
 

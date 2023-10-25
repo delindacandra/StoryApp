@@ -5,7 +5,6 @@ import com.google.gson.annotations.SerializedName
 import kotlinx.parcelize.Parcelize
 
 data class StoryResponse(
-
 	@field:SerializedName("listStory")
 	val listStory: List<ListStoryItem> = emptyList(),
 
@@ -17,7 +16,6 @@ data class StoryResponse(
 )
 @Parcelize
 data class ListStoryItem(
-
 	@field:SerializedName("photoUrl")
 	val photoUrl: String? = null,
 

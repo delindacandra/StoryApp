@@ -7,8 +7,6 @@ import androidx.lifecycle.viewModelScope
 import com.dicoding.storyapp.data.Repository
 import com.dicoding.storyapp.data.pref.UserModel
 import kotlinx.coroutines.launch
-
-
 class MainViewModel(private val repository: Repository) : ViewModel()  {
 
     fun getStories() = repository.stories()

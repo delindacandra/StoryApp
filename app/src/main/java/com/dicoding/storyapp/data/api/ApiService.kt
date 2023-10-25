@@ -19,14 +19,12 @@ interface ApiService {
         @Field("password") password: String
     ): RegisterResponse
 
-
     @FormUrlEncoded
     @POST("login")
     suspend fun login(
         @Field("email") email: String,
         @Field("password") password: String
     ): LoginResponse
-
 
     @GET("stories")
     suspend fun stories(): StoryResponse

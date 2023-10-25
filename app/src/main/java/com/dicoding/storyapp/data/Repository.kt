@@ -18,7 +18,6 @@ import okhttp3.RequestBody.Companion.asRequestBody
 import okhttp3.RequestBody.Companion.toRequestBody
 import retrofit2.HttpException
 import java.io.File
-
 class Repository constructor(
     private val userPreference: UserPreference,
     private val apiService: ApiService

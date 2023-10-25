@@ -15,7 +15,6 @@ import com.dicoding.storyapp.databinding.ActivityWelcomeBinding
 import com.dicoding.storyapp.ui.login.LoginActivity
 import com.dicoding.storyapp.ui.main.MainActivity
 import com.dicoding.storyapp.ui.signup.SignupActivity
-
 class WelcomeActivity : AppCompatActivity() {
     private lateinit var binding: ActivityWelcomeBinding
     private val viewModel by viewModels<WelcomeViewModel>{
@@ -32,7 +31,6 @@ class WelcomeActivity : AppCompatActivity() {
                 finish()
             }
         }
-
         setupView()
         setupAction()
         animation()
@@ -82,6 +80,5 @@ class WelcomeActivity : AppCompatActivity() {
             playSequentially(title, desc, together)
             start()
         }
-
     }
 }
