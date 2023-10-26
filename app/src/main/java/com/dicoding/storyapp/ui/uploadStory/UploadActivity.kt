@@ -102,7 +102,10 @@ class UploadActivity : AppCompatActivity() {
                         is ResultState.Success -> {
                             showToast(story.data.message)
                             showLoading(false)
-                            startActivity(Intent(this, MainActivity::class.java))
+                            val intent = Intent(this, MainActivity::class.java)
+                            intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK
+                            startActivity(intent)
+                            finish()
                         }
                         is ResultState.Error -> {
                             showToast(story.error.toString())
